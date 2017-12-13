@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Events</title>
+    <link rel="stylesheet" href="we_wear_khakis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/westthing.png">
+  </head>
+  <body>
+
+<div class="navbar">
+  <a href="homepage.html">Home</a>
+  <a href="club_info.html">About</a>
+  <a href="contact_info.html">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Events
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="upcoming_events.html#cyber">CyberPatriot</a>
+      <a href="upcoming_events.html#proj">Projects</a>
+    </div>
+  </div>
+  <img class="logo" src="images/westthing.png">
+</div>
+<br>
+<h1>Welcome to the Computer Science Club Webpage!</h1>
+<br>
+<img src="images/capcreation.PNG" alt="Capstone Creations">
+<br>
+<h1>Event Page</h1>
+<hr>
+<br>
+<img class="smallerImage" src="images/CyberPatriot-logo.png" alt="cyberpatriot logo">
+<br>
+<h2 id="cyber">CyberPatriot</h2>
+<br>
+<p>CyberPatriot is known as the National Youth Cyber Education Program that deals with cyber security and web protection.
+   At the center of CyberPatriot is the National Youth Cyber Defense Competition, where they put teams of high school
+   and middle school students in charge of managing the network of a small company. In the rounds of competition, teams are
+   given a set of problems and tasks that must be completed in a six hour period. All the while hardening and trying to find ways
+   to make it overall a better program by the end. The team with the best all around network is the winner. Here at West we have a
+   team who happily competes and always is in it to win it! We have competitions almost every month of the year, feel free to come
+   help and support us! </p>
+
+<br><br>
+<h2 id="proj">Projects</h2>
+  <br>
+
+<p>One of our major projects in the works right now is our West High School App! This app includes; a bell schedule
+for everyone who always wonders, an activity calander to find out when games, breaks, and dances are, an exclusive
+tab on the sports teams including their wins and game highlights of the best moments, and finally a way to check
+your Falcon Flex schedule and Grades fast and easy! And the makers of it all are the Capstone Creations!
+<br><br>
+It's a no-brainer to get this app once it's released. For Andriod users, you could get this app by Christmas of 2017!
+But sadly, if you are an iPhone user you'll probably have to wait until the school year of 2018-19. Sorry! :(</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+  </body>
+</html>

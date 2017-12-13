@@ -1,0 +1,124 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 16px 100px;
+    text-decoration: none;
+}
+
+.navbarIcon {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.navbarIcon a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 16px 40px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 16px 145px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+body {
+  background-image:url("images/techback2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  color: white;
+  text-align: center;
+}
+table, th, td{
+  border: 1px solid black;
+  height: 70px;
+  font-family: Arial;
+  font-size: 100;
+  background-size:auto;
+  background-attachment: fixed;
+  align: center;
+  text-align: center;
+  color: white;
+}
+img {
+  width: 1300px;
+  height: 500px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  filter:brightness(125%)
+}
+.logo {
+  width: 44px;
+  height: auto;
+  border: 0px;
+  filter:contrast(200%)
+}
+.smallerImage {
+  width: 500px;
+  height: 350px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  filter:contrast(200%)
+}

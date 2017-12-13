@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>About</title>
+    <link rel="stylesheet" href="we_wear_khakis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/westthing.png">
+  </head>
+  <body>
+
+<div class="navbar">
+  <a href="homepage.html">Home</a>
+  <a href="club_info.html">About</a>
+  <a href="contact_info.html">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Events
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="upcoming_events.html#cyber">CyberPatriot</a>
+      <a href="upcoming_events.html#proj">Projects</a>
+    </div>
+  </div>
+    <img class="logo" src="images/westthing.png">
+</div>
+<br>
+<h1>Welcome to the Computer Science Club Webpage!</h1>
+<br>
+<img src="images/Capture2.PNG" alt="Logo Thang">
+<br>
+<h1>About Page</h1>
+<hr>
+<br>
+<h2>What do you do at the club?</h2>
+<br>
+<p>Here at the Computer Science Club, one of our main goals is to find ways to access information fast and easy; whether
+through videos, apps, and websites. We spend our meetings programming and trying to find ways to make our
+current projects better. You don't need previous experience for that matter to join! You don't even need to be in a
+class involving code. We try and teach people how to use code to help others. If your even remotely interested
+in any field in technology or enginnering we highly recommened stopping by for a quick peek! Club meetings happen
+every Monday after school, stop by soon! </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="we_wear_khakis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/westthing.png">
+  </head>
+  <body>
+
+<div class="navbar">
+  <a href="homepage.html">Home</a>
+  <a href="club_info.html">About</a>
+  <a href="contact_info.html">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Events
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="upcoming_events.html#proj">CyberPatriot</a>
+      <a href="upcoming_events.html#proj">Projects</a>
+    </div>
+  </div>
+    <img class="logo" src="images/westthing.png">
+</div>
+<br>
+<h1>Welcome to the Computer Science Club Webpage!</h1>
+<br>
+<img src="images/Capture3.PNG" alt="Logo Thang">
+<br>
+<h1>Contact Page</h1>
+<hr>
+<br>
+<h2>Want to join the Computer Science Club or have any questions?</h2>
+<br>
+<p>Contact John Brosius at brosiusj@davenportschools.org or visit him in Room 161!</p>
+
+
+
+
+
+
+
+
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+  </body>
+</html>
