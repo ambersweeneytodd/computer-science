@@ -13,6 +13,18 @@
     text-decoration: none;
 }
 
+.contact {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 16px 40px;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
 .navbarIcon {
     overflow: hidden;
     background-color: #333;
@@ -25,7 +37,6 @@
     color: white;
     text-align: center;
     padding: 16px 40px;
-    text-decoration: none;
 }
 
 .dropdown {
@@ -109,10 +120,11 @@ img {
   filter:brightness(125%);
 }
 .logo {
-  width: 44px;
+  width: 50px;
   height: auto;
   border: 0px;
   filter:contrast(200%);
+  float: right;
 }
 .smallerImage {
   width: 500px;
